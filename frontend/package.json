@@ -1,0 +1,9 @@
+{
+  "name": "pi-cookie-clicker-frontend",
+  "version": "1.0.0",
+  "description": "Frontend para Pi Cookie Clicker",
+  "scripts": {
+    "start": "python3 -m http.server 8080",
+    "serve": "npx http-server -p 8080"
+  }
+}

@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #2c3e50;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.game-container {
+    text-align: center;
+    padding: 20px;
+    background: #34495e;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    max-width: 400px;
+    width: 100%;
+}
+
+#user-section {
+    background: #2c3e50;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+#user-section p {
+    margin: 5px 0;
+    color: #ecf0f1;
+}
+
+.stats {
+    margin: 20px 0;
+    background: #2c3e50;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.cookie-btn {
+    font-size: 100px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.1s;
+    padding: 20px;
+}
+
+.cookie-btn:hover {
+    transform: scale(1.1);
+}
+
+.cookie-btn:active {
+    transform: scale(0.95);
+}
+
+.upgrades {
+    margin-top: 30px;
+}
+
+.upgrade-btn {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.upgrade-btn:hover {
+    background: #2980b9;
+}
+
+.upgrade-btn:disabled {
+    background: #7f8c8d;
+    cursor: not-allowed;
+}
+
+#upgrade-pi {
+    background: #FDB92E;
+    color: #2c3e50;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#upgrade-pi:hover {
+    background: #f39c12;
+}
